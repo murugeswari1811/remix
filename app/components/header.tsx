@@ -22,13 +22,18 @@ const Header = () => {
                         <ul className="space-y-6 tracking-wide font-medium text-sm md:flex md:space-y-0">
                             <li>
                                 <Link to="/loader" className="block md:px-4 transition hover:text-yellow-700">
-                                  <span>I've a restaurant</span>
+                                  <span>Loader</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/action" className="block md:px-4 transition hover:text-yellow-700">
+                                  <span>Action</span>
                                 </Link>
                             </li>
                            
                             <li>
                                 <a href="/card" className="block md:px-4 transition hover:text-yellow-700">
-                                  <span>Cart</span>
+                                  <span>Card</span>
                                 </a>
                             </li>
                         </ul>
